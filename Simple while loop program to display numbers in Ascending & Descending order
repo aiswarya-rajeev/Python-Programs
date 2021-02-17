@@ -1,0 +1,11 @@
+print("Display numbers in Ascending order")
+i = 0
+while (i<10):
+    print(i)
+    i+=1
+
+print("Display numbers in Descending order")
+j = 10
+while (j>=0):
+    print(j)
+    j-=1
