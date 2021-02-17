@@ -1,0 +1,8 @@
+i = 0
+total = 0
+limit = int(input("Enter the limit "))
+while(i<limit):
+    num=int(input("Enter the number "))
+    total = total+num
+    i+=1
+print("total",total)
