@@ -1,0 +1,10 @@
+i=0
+total=0
+print("Lower limit should be less than upper limit")
+low_lim=int(input("Enter the lower limit "))
+up_lim=int(input("Enter the upper limit "))
+while(low_lim<=up_lim):
+    if(low_lim%2==0):
+        total=total+low_lim
+    low_lim+=1
+print("Total",total)
