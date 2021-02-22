@@ -1,0 +1,11 @@
+low_lim=int(input("Enter the low_lim "))
+up_lim=int(input("Enter the up_lim "))
+for num in range(low_lim,up_lim):
+    for j in range (2, num):
+        if (num%2==0):
+            flag = 1
+            break
+        else:
+            flag = 0
+    if(flag==0):
+      print(num)
