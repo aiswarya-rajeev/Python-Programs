@@ -1,0 +1,6 @@
+lst=[2,3,4]
+for item in lst:
+    res1=lst[1]+lst[2]
+    res2=lst[0]+lst[2]
+    res3=lst[0]+lst[1]
+print(res1,res2,res3)
