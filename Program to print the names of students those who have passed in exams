@@ -1,0 +1,4 @@
+set1={"ARYA","ARNAV","FARA","HEBA","VYGA","VEGA","YADHAV","RISHI"} #set1 is the name of entire students in the class
+set2={"ARYA","VEGA","HEBA"} #set2 is the names students who have passed
+passed=set1.difference(set2) 
+print(passed)
