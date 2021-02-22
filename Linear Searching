@@ -1,0 +1,12 @@
+lst=[10,20,30,40,50]
+element=int(input("Enter the number to be Searched "))
+for item in lst:
+    if(item==element):
+        flag=1
+        break
+    else:
+        flag=0
+if(flag>0):
+    print("Item is found")
+else:
+    print("Not Found")
